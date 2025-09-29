@@ -1,0 +1,62 @@
+{
+  "clientes": [
+    { "id": 1, "nombre": "Alice", "credito": 1000 },
+    { "id": 2, "nombre": "Bob", "credito": 500 },
+    { "id": 3, "nombre": "Charlie", "credito": 1500 }
+  ],
+  "productos": [
+    { "id": 101, "nombre": "Laptop", "precio": 400, "stock": 3 },
+    { "id": 102, "nombre": "Teclado", "precio": 50, "stock": 5 },
+    { "id": 103, "nombre": "Mouse", "precio": 30, "stock": 10 },
+    { "id": 104, "nombre": "Monitor", "precio": 200, "stock": 2 }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "clienteId": 1,
+      "items": [
+        { "productoId": 101, "cantidad": 1 },
+        { "productoId": 102, "cantidad": 2 }
+      ]
+    },
+    {
+      "id": 2,
+      "clienteId": 2,
+      "items": [
+        { "productoId": 101, "cantidad": 2 }
+      ]
+    },
+    {
+      "id": 3,
+      "clienteId": 2,
+      "items": [
+        { "productoId": 103, "cantidad": 5 }
+      ]
+    },
+    {
+      "id": 4,
+      "clienteId": 3,
+      "items": [
+        { "productoId": 104, "cantidad": 2 },
+        { "productoId": 102, "cantidad": 1 }
+      ]
+    },
+    {
+      "id": 5,
+      "clienteId": 1,
+      "items": [
+        { "productoId": 101, "cantidad": 1 },
+        { "productoId": 104, "cantidad": 1 }
+      ]
+    },
+    {
+      "id": 6,
+      "clienteId": 3,
+      "items": [
+        { "productoId": 103, "cantidad": 12 }
+      ]
+    }
+  ]
+}
+
+

@@ -1,0 +1,18 @@
+{
+  "name": "campeonato-programacion",
+  "version": "1.0.0",
+  "description": "Retos internos de logica y performance",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:reto1": "node Challenge1/index.js",
+    "start:reto2": "node Challenge2/index.js",
+    "test:performance": "node performance/timer.js"
+  },
+  "dependencies": {
+    "chalk": "5.3.0",
+    "perf_hooks": "latest"
+  },
+  "devDependencies": {}
+}
+
